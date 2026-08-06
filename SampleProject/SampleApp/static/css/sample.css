@@ -1,0 +1,37 @@
+h2{
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	font-style: bold;
+	padding : 30px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border-radius: 30px;
+
+}
+form{
+	margin-right: 20px;
+	margin-left: 20px;
+	padding : 30px;
+	border-radius: 30px;
+}
+button{
+	font-size: 15px;
+	color : white;
+	background-color: red;
+	border-radius: 30px;
+	padding : 20px;
+}
+input{
+	background-color: pink;
+	padding: 15px;
+	width:50%;
+	border-radius:20px;
+
+}
+body{
+		background-image: url("{% static 'images/Backgroundimage.jpg' %}");
+		background-repeat: no-repeat;
+		background-size: cover;
+}
